@@ -1,5 +1,5 @@
 To clear terminal:
-    clear_terminal
+    clear
 
 To configure username and user email:
     git config --global user.name "YOUR_USERNAME"
@@ -22,4 +22,11 @@ To see git version:
 
 To add files to git staging area:
     git add FILE_NAME # To add single file
-    git add. # To add all files
+    git add . # To add all files
+
+To commit all the files in git staging area:
+    git commit -m "COMMIT_MESSAGE"
+
+To push changes to the staging area:
+    git push origin main
+
