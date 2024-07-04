@@ -30,3 +30,14 @@ To commit all the files in git staging area:
 To push changes to the staging area:
     git push origin main
 
+To see all branches:
+    git branch
+
+To create a new branch:
+    git checkout -b BRANCH_NAME
+
+To switch between branches:
+    git checkout BRANCH_NAME
+
+To rename a branch:
+    1. switch to the branch to be renamed
